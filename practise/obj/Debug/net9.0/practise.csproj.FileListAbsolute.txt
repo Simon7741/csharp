@@ -1,0 +1,14 @@
+/home/simon/csharp/practise/bin/Debug/net9.0/practise
+/home/simon/csharp/practise/bin/Debug/net9.0/practise.deps.json
+/home/simon/csharp/practise/bin/Debug/net9.0/practise.runtimeconfig.json
+/home/simon/csharp/practise/bin/Debug/net9.0/practise.dll
+/home/simon/csharp/practise/bin/Debug/net9.0/practise.pdb
+/home/simon/csharp/practise/obj/Debug/net9.0/practise.GeneratedMSBuildEditorConfig.editorconfig
+/home/simon/csharp/practise/obj/Debug/net9.0/practise.AssemblyInfoInputs.cache
+/home/simon/csharp/practise/obj/Debug/net9.0/practise.AssemblyInfo.cs
+/home/simon/csharp/practise/obj/Debug/net9.0/practise.csproj.CoreCompileInputs.cache
+/home/simon/csharp/practise/obj/Debug/net9.0/practise.dll
+/home/simon/csharp/practise/obj/Debug/net9.0/refint/practise.dll
+/home/simon/csharp/practise/obj/Debug/net9.0/practise.pdb
+/home/simon/csharp/practise/obj/Debug/net9.0/practise.genruntimeconfig.cache
+/home/simon/csharp/practise/obj/Debug/net9.0/ref/practise.dll
