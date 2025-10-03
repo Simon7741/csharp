@@ -1,0 +1,15 @@
+/home/simon/csharp/1_ukol/bin/Debug/net9.0/1_ukol.deps.json
+/home/simon/csharp/1_ukol/bin/Debug/net9.0/1_ukol.dll
+/home/simon/csharp/1_ukol/bin/Debug/net9.0/1_ukol.pdb
+/home/simon/csharp/1_ukol/obj/Debug/net9.0/1_ukol.GeneratedMSBuildEditorConfig.editorconfig
+/home/simon/csharp/1_ukol/obj/Debug/net9.0/1_ukol.AssemblyInfoInputs.cache
+/home/simon/csharp/1_ukol/obj/Debug/net9.0/1_ukol.AssemblyInfo.cs
+/home/simon/csharp/1_ukol/obj/Debug/net9.0/1_ukol.csproj.CoreCompileInputs.cache
+/home/simon/csharp/1_ukol/obj/Debug/net9.0/1_ukol.sourcelink.json
+/home/simon/csharp/1_ukol/obj/Debug/net9.0/1_ukol.dll
+/home/simon/csharp/1_ukol/obj/Debug/net9.0/refint/1_ukol.dll
+/home/simon/csharp/1_ukol/obj/Debug/net9.0/1_ukol.pdb
+/home/simon/csharp/1_ukol/obj/Debug/net9.0/ref/1_ukol.dll
+/home/simon/csharp/1_ukol/bin/Debug/net9.0/1_ukol
+/home/simon/csharp/1_ukol/bin/Debug/net9.0/1_ukol.runtimeconfig.json
+/home/simon/csharp/1_ukol/obj/Debug/net9.0/1_ukol.genruntimeconfig.cache
