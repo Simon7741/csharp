@@ -78,7 +78,7 @@ public static void BubbleSort(int[] arr)
 ```
 ⌛ **Časová složitost:** O(n^2)
 
-💾 **Prostorová složitost:** O(n)
+💾 **Prostorová složitost:** O(1)
 
 ---
 
@@ -89,7 +89,7 @@ public static void BubbleSort(int[] arr)
 1. 
 
 
-⌛ **Časová složitost:** O(n)
+⌛ **Časová složitost:** O(log n)
 
 💾 **Prostorová složitost:** O(1)
 
@@ -120,13 +120,13 @@ public static List<int> QuickSort(List<int> arr)
     return result;
 }
 ```
-⌛ **Časová složitost:** O(n)
+⌛ **Časová složitost:** O(n^2)
 
 💾 **Prostorová složitost:** O(n)
 
 Změnila by se časová složitost nějak, kdyby se nám podařilo jako pivot vždy určit medián podposloupnosti?
 
-⌛ **Časová složitost:** O(n)
+⌛ **Časová složitost:** O(nlog n)
 
 ---
 
@@ -144,9 +144,9 @@ public class Node
     }
 }
 ```
-⌛ **Časová složitost:** O(n)
+⌛ **Časová složitost:** O(1)
 
-💾 **Prostorová složitost:** O(n)
+💾 **Prostorová složitost:** O(1)
 
 ---
 
@@ -157,7 +157,7 @@ public class Node
 
 ⌛ **Časová složitost:** O(n)
 
-💾 **Prostorová složitost:** O(n)
+💾 **Prostorová složitost:** O(3)
 
 
 ## Úloha 9 – Nalezení prvku ve spojovém seznamu
@@ -198,7 +198,7 @@ public static bool Find(Node head, int target)
 
 ⌛ **Časová složitost:** O(n)
 
-💾 **Prostorová složitost:** O(1)
+💾 **Prostorová složitost:** O(2)
 
 ## Úloha 12 – Destruktivní sjednocení dvou spojových seznamů
 🧠 **Kroky algoritmu:**
@@ -234,7 +234,7 @@ Cílem je přesunout všechny disky z tyče A na tyč C, přičemž platí tato 
 1. 
 
 
-⌛ **Časová složitost:** O(n!)
+⌛ **Časová složitost:** O(2^n)
 
 💾 **Prostorová složitost:** O(3n)
 
@@ -247,6 +247,6 @@ aby se žádné dvě dámy neohrožovaly — tzn. nesmí být ve stejném řádk
 1. 
 
 
-⌛ **Časová složitost:** O(n^n)
+⌛ **Časová složitost:** O(2^n)
 
 💾 **Prostorová složitost:** O(n^2)
