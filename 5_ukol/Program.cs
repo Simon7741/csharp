@@ -29,11 +29,12 @@ namespace Spojak;
             Console.WriteLine("line of people: ");
 
             num = new Int32[2];
+            vstup = false;
             while(vstup == false){
               try{
               string data = Console.ReadLine();
               num = data.Split(' ').Select(n => Convert.ToInt32(n)).ToArray(); 
-              if (num[0] <= 0 || num[1] < 0){
+              if (num[0] < 0 || num[1] < 0 || num.Count() != 2){
                 Console.WriteLine("neplatný vstup");
               }
               else{
@@ -41,9 +42,10 @@ namespace Spojak;
               }
               }
               catch{
-                Console.WriteLine("neplatný vstup");
+                Console.WriteLine("neplatný vstup err");
               }
             }
+            Console.WriteLine("pocet");
             database.connect([num[0],num[1]]);
             // foreach(Int32 i in line){
               // Console.Write("{0}-",i);
