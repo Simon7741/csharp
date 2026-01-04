@@ -1,0 +1,15 @@
+/home/simon/csharp/5_ukol/bin/Debug/net10.0/Spojak
+/home/simon/csharp/5_ukol/bin/Debug/net10.0/Spojak.deps.json
+/home/simon/csharp/5_ukol/bin/Debug/net10.0/Spojak.runtimeconfig.json
+/home/simon/csharp/5_ukol/bin/Debug/net10.0/Spojak.dll
+/home/simon/csharp/5_ukol/bin/Debug/net10.0/Spojak.pdb
+/home/simon/csharp/5_ukol/obj/Debug/net10.0/Spojak.GeneratedMSBuildEditorConfig.editorconfig
+/home/simon/csharp/5_ukol/obj/Debug/net10.0/Spojak.AssemblyInfoInputs.cache
+/home/simon/csharp/5_ukol/obj/Debug/net10.0/Spojak.AssemblyInfo.cs
+/home/simon/csharp/5_ukol/obj/Debug/net10.0/Spojak.csproj.CoreCompileInputs.cache
+/home/simon/csharp/5_ukol/obj/Debug/net10.0/Spojak.sourcelink.json
+/home/simon/csharp/5_ukol/obj/Debug/net10.0/Spojak.dll
+/home/simon/csharp/5_ukol/obj/Debug/net10.0/refint/Spojak.dll
+/home/simon/csharp/5_ukol/obj/Debug/net10.0/Spojak.pdb
+/home/simon/csharp/5_ukol/obj/Debug/net10.0/Spojak.genruntimeconfig.cache
+/home/simon/csharp/5_ukol/obj/Debug/net10.0/ref/Spojak.dll
