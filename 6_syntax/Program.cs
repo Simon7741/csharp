@@ -32,17 +32,17 @@
                 break;
 
               case "show":
-                foreach(var i in kino.databaseHalls.Keys){
+                foreach(var i in kino.DatabazeSalu.Keys){
                   Console.WriteLine(i);
                 }
                 break;
 
               case "choose":
-                foreach(var i in kino.databaseHalls.Keys){
+                foreach(var i in kino.DatabazeSalu.Keys){
                   Console.WriteLine(i);
                 }
                 string vyber = input("");
-                while(!kino.databaseHalls.ContainsKey(vyber)){
+                while(!kino.DatabazeSalu.ContainsKey(vyber)){
                   Console.WriteLine("tento sál už existuje");
                   vyber = input("Název: ");
                 }
@@ -77,9 +77,7 @@
                     
                     default:
                       break;
-
                   }
-
 
                 }
                 break;
@@ -97,8 +95,8 @@
         }
         class Database{
           //vytvoříme databázi všech sálů
-          public Dictionary<string, Int32[,]> databaseHalls = new Dictionary<string, Int32[,]>();
-          private Dictionary<string, Int32[][]> historieNakupu = new Dictionary<string, Int32[][]>();
+          public Dictionary<string, Int32[,]> DatabazeSalu = new Dictionary<string, Int32[,]>();
+          private Dictionary<string, Int32[][]> HistorieNakupu = new Dictionary<string, Int32[][]>();
           private Int32 Rad = 8;
           private Int32 Sedadel = 10;
           private Int32 Cena = 180;
@@ -109,7 +107,7 @@
           public void addHall(){
             // Console.Write("Název:\tab");
             string nazev = input("Název: ");
-            while(databaseHalls.ContainsKey(nazev)){
+            while(DatabazeSalu.ContainsKey(nazev)){
               Console.WriteLine("tento sál už existuje");
               nazev = input("Název: ");
             }
@@ -127,32 +125,32 @@
                 kino[rada,sedadlo] = 1;              
               }
             }
-            databaseHalls.Add(nazev,kino);
+            DatabazeSalu.Add(nazev,kino);
 
           }
 
-          public void nakup(string nameOfHall){
+          public void nakup(string nazevSalu){
             string worspaceHallName = checkedRandomString(5);
-            Int32[,] pomoc = (Int32[,])databaseHalls[nameOfHall].Clone();
-            databaseHalls.Add(worspaceHallName, pomoc);
+            Int32[,] pomoc = (Int32[,])DatabazeSalu[nazevSalu].Clone();
+            DatabazeSalu.Add(worspaceHallName, pomoc);
             string souhlas;
             string[] reject = {"n","N"};
             Int32 pocet = input("Počet vstupenek: ",1)[0];
             Int32[][] listky = new Int32[pocet+1][];
             do{
-              databaseHalls[nameOfHall] = (Int32[,])databaseHalls[worspaceHallName].Clone();
-              Int32[,] sal = databaseHalls[nameOfHall];
-              printHall(nameOfHall);
+              DatabazeSalu[nazevSalu] = (Int32[,])DatabazeSalu[worspaceHallName].Clone();
+              Int32[,] sal = DatabazeSalu[nazevSalu];
+              printHall(nazevSalu);
               Console.WriteLine("Mista rada a sedadlo");
               for(int cislo = 1; cislo <= pocet; cislo++){
                 Int32[] misto = input(cislo.ToString() + " ",2);
-                if(isSeatPossible(misto,nameOfHall)){
+                if(isSeatPossible(misto,nazevSalu)){
                     // listky se používá k ukládání údajů o nákupu k vypočítání ceny a pozdějšímu vrácení
                     Int32 test = sal[misto[0],misto[1]];
                     listky[cislo] = [misto[0],misto[1],test];
                     sal[misto[0],misto[1]] += 3;
 
-                    printHall(nameOfHall);
+                    printHall(nazevSalu);
                     Console.WriteLine("Mista rada a sedadlo");
                 }
                 else{
@@ -161,7 +159,7 @@
                   cislo--;
                 }
               }
-              printHall(nameOfHall);
+              printHall(nazevSalu);
               souhlas = input("souhlasÍ Y/N: ");
             }while(reject.Contains(souhlas));
             
@@ -170,15 +168,12 @@
             Console.WriteLine("Cena za lístky {0} Kč",cena);
             Console.WriteLine("Kód objednávky: {0}",worspaceHallName);
             // dáme do úložiště pro případné vrácení
-            databaseHalls.Remove(worspaceHallName);
-            historieNakupu.Add(worspaceHallName,listky);
-
-            
-            
+            DatabazeSalu.Remove(worspaceHallName);
+            HistorieNakupu.Add(worspaceHallName,listky);
             // return cena;
           }
 
-          private Int32 cenaCelkem(Int32[][] listky, string nameOfHall){
+          private Int32 cenaCelkem(Int32[][] listky, string nazevSalu){
             Int32 cena = 0;
             for(Int32 i = 1; i < listky.Count(); i++){
               // VIPCena je příplatek k základu
@@ -191,10 +186,10 @@
             return cena;
           }
 
-          private bool isSeatPossible(Int32[] position,string nameOfHall){
-            if(position[0] > Rad || position[1] > Sedadel);
-            else if(position[0] <= 0 || position[1] <= 0);
-            else if(databaseHalls[nameOfHall][position[0],position[1]] > 1);
+          private bool isSeatPossible(Int32[] pozice, string nazevSalu){
+            if(pozice[0] > Rad || pozice[1] > Sedadel);
+            else if(pozice[0] <= 0 || pozice[1] <= 0);
+            else if(DatabazeSalu[nazevSalu][pozice[0],pozice[1]] > 1);
             else{
               return true;
             }
@@ -203,27 +198,25 @@
           }
 
           // aby se zabránilo nešťastným schodám
-          private string checkedRandomString(int length){
+          private string checkedRandomString(int delka){
             string vystup;
-             var d = databaseHalls;
-            do
-            {
-              vystup = RandomString(length);
+            do{
+              vystup = RandomString(delka);
                 
-            } while(databaseHalls.ContainsKey(vystup));
+            } while(DatabazeSalu.ContainsKey(vystup) || HistorieNakupu.ContainsKey(vystup));
 
             return vystup;
           }
 
 
-          public void printHall(string nameOfHall){
-            if(!databaseHalls.ContainsKey(nameOfHall)){
+          public void printHall(string nazevSalu){
+            if(!DatabazeSalu.ContainsKey(nazevSalu)){
               Console.WriteLine("Error 204: Sál neexistuje");
             }
             else{
               Console.Clear();
-              Console.WriteLine("Sál {0}",nameOfHall);
-              Int32[,] sal = databaseHalls[nameOfHall];
+              Console.WriteLine("Sál {0}",nazevSalu);
+              Int32[,] sal = DatabazeSalu[nazevSalu];
               for(Int32 rada = 1; rada<= Rad; rada++){
                 Console.BackgroundColor = ConsoleColor.Gray;
                 Console.Write("{0}:", rada);
@@ -267,12 +260,12 @@
 
         }
 
-        public static Int32[] input(string? text,Int32 count){
+        public static Int32[] input(string? text,Int32 pocet){
           // null == chybný vstup
           Int32[]? parse;
           do{
             Console.Write(text);
-            parse = inputParse(Console.ReadLine(),count);
+            parse = inputParse(Console.ReadLine(),pocet);
             if(parse == null){
               Console.WriteLine("Neplatný vstup");
             }
@@ -282,16 +275,15 @@
 
         private static Random random = new Random();
 
-        public static string RandomString(int length) {
+        public static string RandomString(int delka) {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-            return new string(Enumerable.Repeat(chars, length)
+            return new string(Enumerable.Repeat(chars, delka)
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
 
         // pokusí se zpracovat string do Int32 => pokud ne vrátí null
         public static Int32[]? inputParse(string? vstup, Int32 pocet){
-          // Int32[]? vystup = vstup.Select(v => Int32.TryParse(v,out v)).ToArray();
           if (vstup == null){return null;}
           string[]? postup = vstup.Split(null);
           if(postup.Count() != pocet){
