@@ -29,6 +29,7 @@
                 Console.WriteLine("choose - vybrání sálu");
                 Console.WriteLine("help - pomoc");
                 Console.WriteLine("exit - konec");
+                Console.WriteLine();
                 break;
 
               case "show":
@@ -38,16 +39,17 @@
                 break;
 
               case "choose":
+                Console.WriteLine("sály: \n------");
                 foreach(var i in kino.DatabazeSalu.Keys){
                   Console.WriteLine(i);
                 }
-                string vyber = input("");
+                string vyber = input("------\n");
                 while(!kino.DatabazeSalu.ContainsKey(vyber)){
                   Console.WriteLine("tento sál už existuje");
                   vyber = input("Název: ");
                 }
                 bool isInHall = true;
-                Console.WriteLine("jste v sálu");
+                Console.WriteLine("\njste v sálu\n");
                 Console.WriteLine("show - zobrazení sálu");
                 Console.WriteLine("buy - koupit lístky");
                 Console.WriteLine("help - pomoc");
@@ -76,6 +78,7 @@
                       break;
                     
                     default:
+                      Console.WriteLine("chybný vstup");
                       break;
                   }
 
@@ -86,6 +89,7 @@
                 return;
                 
                 default:
+                  Console.WriteLine("chybný vstup");
                   break;
             }
 
