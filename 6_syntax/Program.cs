@@ -6,16 +6,99 @@
           Database kino = new Database();
           Console.BackgroundColor = ConsoleColor.Black;
           Console.Clear();
-          kino.addHall();
-          kino.printHall("hala");
-          kino.nakup("hala");
+          // kino.addHall();
+          // kino.printHall("hala");
+          // kino.nakup("hala");
+          bool exit = false;
+          Console.WriteLine("add - přídání sálu");
+          Console.WriteLine("show - zobrazení sálů");
+          Console.WriteLine("choose - vybrání sálu");
+          Console.WriteLine("help - pomoc");
+          Console.WriteLine("exit - konec");
+          while(exit == false){
+            string option1 = input("");
+            switch (option1){
+              case "add":
+                kino.addHall();
+                Console.WriteLine("přidáno");
+                break;
+
+              case "help":
+                Console.WriteLine("add - přídání sálu");
+                Console.WriteLine("show - zobrazení sálů");
+                Console.WriteLine("choose - vybrání sálu");
+                Console.WriteLine("help - pomoc");
+                Console.WriteLine("exit - konec");
+                break;
+
+              case "show":
+                foreach(var i in kino.databaseHalls.Keys){
+                  Console.WriteLine(i);
+                }
+                break;
+
+              case "choose":
+                foreach(var i in kino.databaseHalls.Keys){
+                  Console.WriteLine(i);
+                }
+                string vyber = input("");
+                while(!kino.databaseHalls.ContainsKey(vyber)){
+                  Console.WriteLine("tento sál už existuje");
+                  vyber = input("Název: ");
+                }
+                bool isInHall = true;
+                Console.WriteLine("jste v sálu");
+                Console.WriteLine("show - zobrazení sálu");
+                Console.WriteLine("buy - koupit lístky");
+                Console.WriteLine("help - pomoc");
+                Console.WriteLine("back - zpět na přehled kina");
+                while(isInHall){
+                  string option2 = input("");
+                  switch(option2){
+                    case "help":
+                      Console.WriteLine("show - zobrazení sálu");
+                      Console.WriteLine("buy - koupit lístky");
+                      Console.WriteLine("help - pomoc");
+                      Console.WriteLine("back - zpět na přehled kina");
+                      break;
+
+                    case "show":
+                      kino.printHall(vyber);
+                      Console.WriteLine("Sál {0} vybráno", vyber);
+                      break;
+
+                    case "buy":
+                      kino.nakup(vyber);
+                      break;
+
+                    case "back":
+                      isInHall = false;
+                      break;
+                    
+                    default:
+                      break;
+
+                  }
+
+
+                }
+                break;
+
+              case "exit":
+                return;
+                
+                default:
+                  break;
+            }
+
+          }
 
 
         }
         class Database{
           //vytvoříme databázi všech sálů
           public Dictionary<string, Int32[,]> databaseHalls = new Dictionary<string, Int32[,]>();
-          public Dictionary<string, Int32[][]> historieNakupu = new Dictionary<string, Int32[][]>();
+          private Dictionary<string, Int32[][]> historieNakupu = new Dictionary<string, Int32[][]>();
           private Int32 Rad = 8;
           private Int32 Sedadel = 10;
           private Int32 Cena = 180;
@@ -26,6 +109,10 @@
           public void addHall(){
             // Console.Write("Název:\tab");
             string nazev = input("Název: ");
+            while(databaseHalls.ContainsKey(nazev)){
+              Console.WriteLine("tento sál už existuje");
+              nazev = input("Název: ");
+            }
             //budeme indexovat od 1 kvůli uživatelskému přehledu a usnadnění práce při práci s daty
             Int32 rRad = Rad+1;
             Int32 rSedadel = Sedadel+1;
@@ -44,13 +131,13 @@
 
           }
 
-          public Int32 nakup(string nameOfHall){
+          public void nakup(string nameOfHall){
             string worspaceHallName = checkedRandomString(5);
             Int32[,] pomoc = (Int32[,])databaseHalls[nameOfHall].Clone();
             databaseHalls.Add(worspaceHallName, pomoc);
             string souhlas;
             string[] reject = {"n","N"};
-            Int32 pocet = input("Počet vstupenek",1)[0];
+            Int32 pocet = input("Počet vstupenek: ",1)[0];
             Int32[][] listky = new Int32[pocet+1][];
             do{
               databaseHalls[nameOfHall] = (Int32[,])databaseHalls[worspaceHallName].Clone();
@@ -58,7 +145,7 @@
               printHall(nameOfHall);
               Console.WriteLine("Mista rada a sedadlo");
               for(int cislo = 1; cislo <= pocet; cislo++){
-                Int32[] misto = input(cislo.ToString(),2);
+                Int32[] misto = input(cislo.ToString() + " ",2);
                 if(isSeatPossible(misto,nameOfHall)){
                     // listky se používá k ukládání údajů o nákupu k vypočítání ceny a pozdějšímu vrácení
                     Int32 test = sal[misto[0],misto[1]];
@@ -75,17 +162,20 @@
                 }
               }
               printHall(nameOfHall);
-              souhlas = input("souhlasÍ Y/N");
+              souhlas = input("souhlasÍ Y/N: ");
             }while(reject.Contains(souhlas));
             
             Int32 cena = 0;
             cena = cenaCelkem(listky,worspaceHallName);
-            Console.WriteLine(cena);
+            Console.WriteLine("Cena za lístky {0} Kč",cena);
+            Console.WriteLine("Kód objednávky: {0}",worspaceHallName);
             // dáme do úložiště pro případné vrácení
+            databaseHalls.Remove(worspaceHallName);
+            historieNakupu.Add(worspaceHallName,listky);
 
             
             
-            return cena;
+            // return cena;
           }
 
           private Int32 cenaCelkem(Int32[][] listky, string nameOfHall){

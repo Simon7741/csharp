@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Spojak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a63bd66af2a45cf2ba718f16905ecff230ea080")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fb6751a3888080800584447772ac18d68a83a9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Spojak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Spojak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
