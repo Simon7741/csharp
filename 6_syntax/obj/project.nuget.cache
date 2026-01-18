@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HOVQmnmEVD8=",
+  "success": true,
+  "projectFilePath": "/home/simon/csharp/6_syntax/Spojak.csproj",
+  "expectedPackageFiles": [
+    "/home/simon/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.0/microsoft.aspnetcore.app.ref.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

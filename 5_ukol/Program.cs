@@ -90,7 +90,7 @@ namespace Spojak;
 
             if ((num.Count() == 4) && num[2] > 0 && num[3] <= 1 && num[3] >= 0 && num[1] < Mesta){
               // Int32[] help = [num[3],num[2]];
-              Console.WriteLine("{0}{1}{2}{3}", num[0],num[1],num[2],num[3]);
+              // Console.WriteLine("{0}{1}{2}{3}", num[0],num[1],num[2],num[3]);
               cesty[num[0]].Add(num[1],[num[2],num[3]]);
               cesty[num[1]].Add(num[0],[num[2],num[3]]);
               pomoc ++;
@@ -122,7 +122,7 @@ namespace Spojak;
         
         while(fronta.Count > 0){
           var element = fronta.Dequeue();
-          Console.WriteLine("{0}{1}{2}{3}{4}{5}",element["odkud"],element["kam"],element["placena"],element["bPlacena"],element["vzdalenost"],element["celkem"]);
+          // Console.WriteLine("{0}{1}{2}{3}{4}{5}",element["odkud"],element["kam"],element["placena"],element["bPlacena"],element["vzdalenost"],element["celkem"]);
           if (element["kam"] == test[1]){
             Console.WriteLine("vyreseno {0}",element["celkem"]);
             if(element["placena"] == 1){
@@ -160,28 +160,28 @@ namespace Spojak;
               else{
                 a = new List<int>(neplacena[element["odkud"]]);
               }
-              Console.WriteLine("kamp :{0}",element["kam"]);
+              // Console.WriteLine("kamp :{0}",element["kam"]);
               a.Add(element["kam"]);
-              Console.WriteLine("cesta");
-              Console.Write(a[1]);
+              // Console.WriteLine("cesta");
+              // Console.Write(a[1]);
               placena.Add(element["kam"],a);
             }
           }
           else if (!neplacena.ContainsKey(element["kam"])){
               pridano = 1;
               // neplacena.Add(element[0],element[1]);
-              Console.WriteLine("kamn :{0}",element["kam"]);
+              // Console.WriteLine("kamn :{0}",element["kam"]);
               List<Int32> a = new List<Int32>(neplacena[element["odkud"]]);
               a.Add(element["kam"]);
-              Console.WriteLine("cesta");
-              Console.Write(a[1]);
+              // Console.WriteLine("cesta");
+              // Console.Write(a[1]);
               neplacena.Add(element["kam"],a);
             
             
           }
 
           if(pridano > 0){
-            foreach(var h in cesty[element["kam"]]){
+           foreach(var h in cesty[element["kam"]]){
               Dictionary<string, Int32> postup = new Dictionary<string, int>(element);
               postup["bPlacena"] = postup["placena"];
               postup["vzdalenost"] = h.Value[0];
