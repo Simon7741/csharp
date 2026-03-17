@@ -1,0 +1,12 @@
+/home/simon/csharp/8_abeceda/uniti-testing-using-dotnent-test/PrimeService/bin/Debug/net10.0/PrimeService.deps.json
+/home/simon/csharp/8_abeceda/uniti-testing-using-dotnent-test/PrimeService/bin/Debug/net10.0/PrimeService.dll
+/home/simon/csharp/8_abeceda/uniti-testing-using-dotnent-test/PrimeService/bin/Debug/net10.0/PrimeService.pdb
+/home/simon/csharp/8_abeceda/uniti-testing-using-dotnent-test/PrimeService/obj/Debug/net10.0/PrimeService.GeneratedMSBuildEditorConfig.editorconfig
+/home/simon/csharp/8_abeceda/uniti-testing-using-dotnent-test/PrimeService/obj/Debug/net10.0/PrimeService.AssemblyInfoInputs.cache
+/home/simon/csharp/8_abeceda/uniti-testing-using-dotnent-test/PrimeService/obj/Debug/net10.0/PrimeService.AssemblyInfo.cs
+/home/simon/csharp/8_abeceda/uniti-testing-using-dotnent-test/PrimeService/obj/Debug/net10.0/PrimeService.csproj.CoreCompileInputs.cache
+/home/simon/csharp/8_abeceda/uniti-testing-using-dotnent-test/PrimeService/obj/Debug/net10.0/PrimeService.sourcelink.json
+/home/simon/csharp/8_abeceda/uniti-testing-using-dotnent-test/PrimeService/obj/Debug/net10.0/PrimeService.dll
+/home/simon/csharp/8_abeceda/uniti-testing-using-dotnent-test/PrimeService/obj/Debug/net10.0/refint/PrimeService.dll
+/home/simon/csharp/8_abeceda/uniti-testing-using-dotnent-test/PrimeService/obj/Debug/net10.0/PrimeService.pdb
+/home/simon/csharp/8_abeceda/uniti-testing-using-dotnent-test/PrimeService/obj/Debug/net10.0/ref/PrimeService.dll

@@ -5,7 +5,7 @@
         {
           Slovnik slovnik = new Slovnik();
           string[] vstupData = input().Split();
-          slovnik.vstup(vstupData);
+          slovnik.vstupEasy(vstupData);
           slovnik.poradi();
           slovnik.vystup();
 
@@ -18,7 +18,7 @@
           public List<char> serazenePismena = new List<char>();
           
           // vytvoření databáze
-          public void vstup(string[] data){
+          public void vstupEasy(string[] data){
             foreach(string i in data){
               // a < b
               if(!Mensi.ContainsKey(i[0])){
@@ -32,6 +32,14 @@
 
               Mensi[i[2]].Add(i[0]);
             }
+          }
+          public void vstupHard(string[] data){
+            List<char> historie = new List<char>();
+            Dictionary<char,string> nevim = new Dictionary<char, string>();
+            // foreach()
+
+            
+
           }
           public void poradi(){
             char prazdne = ' ';

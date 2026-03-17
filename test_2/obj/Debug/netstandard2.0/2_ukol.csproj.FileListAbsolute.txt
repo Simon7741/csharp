@@ -1,0 +1,11 @@
+/home/simon/csharp/2_ukol/bin/Debug/netstandard2.0/2_ukol.deps.json
+/home/simon/csharp/2_ukol/bin/Debug/netstandard2.0/2_ukol.dll
+/home/simon/csharp/2_ukol/bin/Debug/netstandard2.0/2_ukol.pdb
+/home/simon/csharp/2_ukol/obj/Debug/netstandard2.0/2_ukol.csproj.AssemblyReference.cache
+/home/simon/csharp/2_ukol/obj/Debug/netstandard2.0/2_ukol.GeneratedMSBuildEditorConfig.editorconfig
+/home/simon/csharp/2_ukol/obj/Debug/netstandard2.0/2_ukol.AssemblyInfoInputs.cache
+/home/simon/csharp/2_ukol/obj/Debug/netstandard2.0/2_ukol.AssemblyInfo.cs
+/home/simon/csharp/2_ukol/obj/Debug/netstandard2.0/2_ukol.csproj.CoreCompileInputs.cache
+/home/simon/csharp/2_ukol/obj/Debug/netstandard2.0/2_ukol.sourcelink.json
+/home/simon/csharp/2_ukol/obj/Debug/netstandard2.0/2_ukol.dll
+/home/simon/csharp/2_ukol/obj/Debug/netstandard2.0/2_ukol.pdb
