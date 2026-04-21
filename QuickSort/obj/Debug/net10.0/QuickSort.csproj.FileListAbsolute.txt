@@ -1,0 +1,15 @@
+/home/simon/csharp/QuickSort/obj/Debug/net10.0/QuickSort.GeneratedMSBuildEditorConfig.editorconfig
+/home/simon/csharp/QuickSort/obj/Debug/net10.0/QuickSort.AssemblyInfoInputs.cache
+/home/simon/csharp/QuickSort/obj/Debug/net10.0/QuickSort.AssemblyInfo.cs
+/home/simon/csharp/QuickSort/obj/Debug/net10.0/QuickSort.csproj.CoreCompileInputs.cache
+/home/simon/csharp/QuickSort/obj/Debug/net10.0/QuickSort.sourcelink.json
+/home/simon/csharp/QuickSort/bin/Debug/net10.0/QuickSort
+/home/simon/csharp/QuickSort/bin/Debug/net10.0/QuickSort.deps.json
+/home/simon/csharp/QuickSort/bin/Debug/net10.0/QuickSort.runtimeconfig.json
+/home/simon/csharp/QuickSort/bin/Debug/net10.0/QuickSort.dll
+/home/simon/csharp/QuickSort/bin/Debug/net10.0/QuickSort.pdb
+/home/simon/csharp/QuickSort/obj/Debug/net10.0/QuickSort.dll
+/home/simon/csharp/QuickSort/obj/Debug/net10.0/refint/QuickSort.dll
+/home/simon/csharp/QuickSort/obj/Debug/net10.0/QuickSort.pdb
+/home/simon/csharp/QuickSort/obj/Debug/net10.0/QuickSort.genruntimeconfig.cache
+/home/simon/csharp/QuickSort/obj/Debug/net10.0/ref/QuickSort.dll

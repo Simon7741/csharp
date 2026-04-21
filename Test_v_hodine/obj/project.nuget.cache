@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cKKjkbH5u2c=",
+  "dgSpecHash": "DQe08H3uzpg=",
   "success": true,
   "projectFilePath": "/home/simon/csharp/Test_v_hodine/Test.csproj",
   "expectedPackageFiles": [
-    "/home/simon/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
+    "/home/simon/.nuget/packages/microsoft.netcore.app.ref/9.0.14/microsoft.netcore.app.ref.9.0.14.nupkg.sha512",
+    "/home/simon/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.14/microsoft.aspnetcore.app.ref.9.0.14.nupkg.sha512",
+    "/home/simon/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.14/microsoft.netcore.app.host.linux-x64.9.0.14.nupkg.sha512"
   ],
   "logs": []
 }

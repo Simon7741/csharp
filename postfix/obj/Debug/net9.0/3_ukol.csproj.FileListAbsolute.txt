@@ -1,0 +1,5 @@
+/home/simon/csharp/3_ukol/obj/Debug/net9.0/3_ukol.GeneratedMSBuildEditorConfig.editorconfig
+/home/simon/csharp/3_ukol/obj/Debug/net9.0/3_ukol.AssemblyInfoInputs.cache
+/home/simon/csharp/3_ukol/obj/Debug/net9.0/3_ukol.AssemblyInfo.cs
+/home/simon/csharp/3_ukol/obj/Debug/net9.0/3_ukol.csproj.CoreCompileInputs.cache
+/home/simon/csharp/3_ukol/obj/Debug/net9.0/3_ukol.sourcelink.json
