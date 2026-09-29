@@ -1,0 +1,15 @@
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/obj/Debug/net10.0/Labyrint.GeneratedMSBuildEditorConfig.editorconfig
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/obj/Debug/net10.0/Labyrint.AssemblyInfoInputs.cache
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/obj/Debug/net10.0/Labyrint.AssemblyInfo.cs
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/obj/Debug/net10.0/Labyrint.csproj.CoreCompileInputs.cache
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/obj/Debug/net10.0/Labyrint.sourcelink.json
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/bin/Debug/net10.0/Labyrint
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/bin/Debug/net10.0/Labyrint.deps.json
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/bin/Debug/net10.0/Labyrint.runtimeconfig.json
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/bin/Debug/net10.0/Labyrint.dll
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/bin/Debug/net10.0/Labyrint.pdb
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/obj/Debug/net10.0/Labyrint.dll
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/obj/Debug/net10.0/refint/Labyrint.dll
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/obj/Debug/net10.0/Labyrint.pdb
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/obj/Debug/net10.0/Labyrint.genruntimeconfig.cache
+/home/simon/Documents/csharp/csharp/2_rok/Labyrint/obj/Debug/net10.0/ref/Labyrint.dll

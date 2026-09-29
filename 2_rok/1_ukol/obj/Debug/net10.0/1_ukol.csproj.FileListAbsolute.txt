@@ -1,0 +1,15 @@
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/obj/Debug/net10.0/1_ukol.GeneratedMSBuildEditorConfig.editorconfig
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/obj/Debug/net10.0/1_ukol.AssemblyInfoInputs.cache
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/obj/Debug/net10.0/1_ukol.AssemblyInfo.cs
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/obj/Debug/net10.0/1_ukol.csproj.CoreCompileInputs.cache
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/obj/Debug/net10.0/1_ukol.sourcelink.json
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/bin/Debug/net10.0/1_ukol
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/bin/Debug/net10.0/1_ukol.deps.json
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/bin/Debug/net10.0/1_ukol.runtimeconfig.json
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/bin/Debug/net10.0/1_ukol.dll
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/bin/Debug/net10.0/1_ukol.pdb
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/obj/Debug/net10.0/1_ukol.dll
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/obj/Debug/net10.0/refint/1_ukol.dll
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/obj/Debug/net10.0/1_ukol.pdb
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/obj/Debug/net10.0/1_ukol.genruntimeconfig.cache
+/home/simon/Documents/csharp/csharp/2_rok/1_ukol/obj/Debug/net10.0/ref/1_ukol.dll
