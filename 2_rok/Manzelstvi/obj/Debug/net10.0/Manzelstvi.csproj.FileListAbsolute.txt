@@ -1,0 +1,15 @@
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/bin/Debug/net10.0/Manzelstvi
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/bin/Debug/net10.0/Manzelstvi.deps.json
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/bin/Debug/net10.0/Manzelstvi.runtimeconfig.json
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/bin/Debug/net10.0/Manzelstvi.dll
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/bin/Debug/net10.0/Manzelstvi.pdb
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/obj/Debug/net10.0/Manzelstvi.GeneratedMSBuildEditorConfig.editorconfig
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/obj/Debug/net10.0/Manzelstvi.AssemblyInfoInputs.cache
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/obj/Debug/net10.0/Manzelstvi.AssemblyInfo.cs
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/obj/Debug/net10.0/Manzelstvi.csproj.CoreCompileInputs.cache
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/obj/Debug/net10.0/Manzelstvi.sourcelink.json
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/obj/Debug/net10.0/Manzelstvi.dll
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/obj/Debug/net10.0/refint/Manzelstvi.dll
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/obj/Debug/net10.0/Manzelstvi.pdb
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/obj/Debug/net10.0/Manzelstvi.genruntimeconfig.cache
+/home/simon/Documents/csharp/csharp/2_rok/Manzelstvi/obj/Debug/net10.0/ref/Manzelstvi.dll
