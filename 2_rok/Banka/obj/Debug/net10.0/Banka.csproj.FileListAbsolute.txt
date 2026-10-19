@@ -1,0 +1,15 @@
+/home/simon/Documents/csharp/csharp/2_rok/Banka/obj/Debug/net10.0/Banka.GeneratedMSBuildEditorConfig.editorconfig
+/home/simon/Documents/csharp/csharp/2_rok/Banka/obj/Debug/net10.0/Banka.AssemblyInfoInputs.cache
+/home/simon/Documents/csharp/csharp/2_rok/Banka/obj/Debug/net10.0/Banka.AssemblyInfo.cs
+/home/simon/Documents/csharp/csharp/2_rok/Banka/obj/Debug/net10.0/Banka.csproj.CoreCompileInputs.cache
+/home/simon/Documents/csharp/csharp/2_rok/Banka/obj/Debug/net10.0/Banka.sourcelink.json
+/home/simon/Documents/csharp/csharp/2_rok/Banka/bin/Debug/net10.0/Banka
+/home/simon/Documents/csharp/csharp/2_rok/Banka/bin/Debug/net10.0/Banka.deps.json
+/home/simon/Documents/csharp/csharp/2_rok/Banka/bin/Debug/net10.0/Banka.runtimeconfig.json
+/home/simon/Documents/csharp/csharp/2_rok/Banka/bin/Debug/net10.0/Banka.dll
+/home/simon/Documents/csharp/csharp/2_rok/Banka/bin/Debug/net10.0/Banka.pdb
+/home/simon/Documents/csharp/csharp/2_rok/Banka/obj/Debug/net10.0/Banka.dll
+/home/simon/Documents/csharp/csharp/2_rok/Banka/obj/Debug/net10.0/refint/Banka.dll
+/home/simon/Documents/csharp/csharp/2_rok/Banka/obj/Debug/net10.0/Banka.pdb
+/home/simon/Documents/csharp/csharp/2_rok/Banka/obj/Debug/net10.0/Banka.genruntimeconfig.cache
+/home/simon/Documents/csharp/csharp/2_rok/Banka/obj/Debug/net10.0/ref/Banka.dll

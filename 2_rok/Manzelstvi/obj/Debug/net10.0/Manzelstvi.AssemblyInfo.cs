@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Manzelstvi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acc829b4eb7727da2ea6874421762345361853a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0ddc8795c6aad15dabd0deb785df93ac8693514")]
 [assembly: System.Reflection.AssemblyProductAttribute("Manzelstvi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Manzelstvi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

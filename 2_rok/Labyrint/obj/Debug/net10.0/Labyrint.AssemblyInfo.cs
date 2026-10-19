@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Labyrint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6736eca35e0a402a4e9c19e4ab1a4c51afea8100")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0ddc8795c6aad15dabd0deb785df93ac8693514")]
 [assembly: System.Reflection.AssemblyProductAttribute("Labyrint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Labyrint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
